@@ -44,7 +44,7 @@ To help you select an appropriate data set for this project, we've set some guid
 
 When selecting a data set, be sure to take into consideration the following constraints:
 
-1. Your data set can't be one we've already worked with in any labs.
+1. Your data set can't be one we've already worked with in the previous two projects. 
 2. Your data set should contain a minimum of 1000 rows.    
 3. Your data set should contain a minimum of 10 predictor columns, before any one-hot encoding is performed.   
 4. Your instructor must provide final approval on your data set.
@@ -59,26 +59,28 @@ There are two ways that you can about getting started: **_Problem-First_** or **
 
 There are plenty of amazing places that you can get your data from. We recommend you start looking at data sets in some of these resources first:
 
-* [UCI Machine Learning Datasets Repository](https://archive.ics.uci.edu/ml/datasets.html)
+* [UCI Machine Learning Datasets Repository](https://archive.ics.uci.edu/ml/datasets.php)
 * [Kaggle Datasets](https://www.kaggle.com/datasets)
 * [Awesome Datasets Repo on Github](https://github.com/awesomedata/awesome-public-datasets)
 * [New York City Open Data Portal](https://opendata.cityofnewyork.us/)
+* [Seattle Open Data Portal](https://data.seattle.gov/)
+* [Chicago Open Data Portal](https://data.cityofchicago.org/)
 * [Inside AirBNB ](http://insideairbnb.com/)
 
 
 ## The Deliverables
 
-For online students, your completed project should contain the following four deliverables:
+There will be 2 deliverables for this project:
 
 1. A **_Jupyter Notebook_** containing any code you've written for this project. This work will need to be pushed to your GitHub repository in order to submit your project.
 
-2. An organized **README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository. 
-
-3. A **_[Blog Post](https://github.com/learn-co-curriculum/dsc-welcome-blogging)_**.
-
-4. An **_"Executive Summary" PowerPoint Presentation_** that gives a brief overview of your problem/dataset, and each step of the OSEMN process.
-
-Note: On-campus students may have different deliverables, please speak with your instructor.
+2. An executive **Keynote/PowerPoint/Google Slides presentation** (delivered as a PDF export) that explains the business problem you are solving, your findings, and their relevance to the company/stakeholders.
+    + Contain between 5-10 professional quality slides detailing:
+        + A high-level overview of your business problem, methodology and data source;
+        + Any real-world recommendations you would like to make based on your findings (ask yourself--why should the executive team care about what you found? How can your findings help the company/stakeholder?);
+        + Take no more than 10 minutes to present; and
+        + Avoid technical jargon and explain results in a clear, actionable way for non-technical audiences.
+    + Make sure to also add and commit this pdf of your non-technical presentation to your repository with a file name of `presentation.pdf`.
 
 ### Jupyter Notebook Must-Haves
 
@@ -93,12 +95,13 @@ For this project, your Jupyter Notebook should meet the following specifications
 **_Process, Methodology, and Findings_**
 
 * Your notebook should contain a clear record of your process and methodology for exploring and preprocessing your data, building and tuning a model, and interpreting your results.
-* We recommend you use the OSEMN process to help organize your thoughts and stay on track.
+* We recommend you use the [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) process to help organize your thoughts and stay on track.
 
-### Blog Post Must-Haves
 
-Refer back to the [Blogging Guidelines](https://github.com/learn-co-curriculum/dsc-welcome-blogging) for the technical requirements and blog ideas.
+## Submitting your Project
 
-## Grading Rubric 
+You’re almost done! In order to submit your project for review, include the following links to your work in the corresponding fields on the right-hand side of Learn.
 
-Online students can find a PDF of the grading rubric for the project [here](https://github.com/learn-co-curriculum/dsc-mod-5-project/blob/master/module5_project_rubric.pdf). _Note: On-campus students may have different requirements, please speak with your instructor._ 
+1. **GitHub Repo:** Now that you’ve completed your project in Jupyter Notebooks, push your work to GitHub and paste that link to the right. (If you need help doing so, review the resources [here](https://docs.google.com/spreadsheets/d/1CNGDhjcQZDRx2sWByd2v-mgUOjy13Cd_hQYVXPuzEDE/edit#gid=0).)
+2. **Keynote/PowerPoint/Google Slides presentation:** be sure to commit a pdf of your non-technical presentation to the repository with a file name of `presentation.pdf`.
+
